@@ -8,11 +8,9 @@ Created on Sun May  9 10:27:17 2021
 
 #Analysis Theory
 Bid data submitted to the NYISO must be published and publicly available.  
-To protect the identities o
+To protect the identities this data is given masked id values for each market participant.
 
-#Bid records
-**Parameter Data**
-Type Description
+##Market Participant type
 **masked bidder id, NUM**, A numeric (integer) identifier for bidder that can 
 be tracked over time.
 **masked source id, NUM**, A numeric (integer) identifier for source 
@@ -21,8 +19,6 @@ be tracked over time.
 can be tracked over time.
 **masked location id, NUM**, A numeric (integer) identifier for location that 
 can be tracked over time. 
-
-
 
 #bid_zip_loc.py
 get_bid_loc.py is the first program to run. It creates a directory of URL links for 
