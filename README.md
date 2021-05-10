@@ -7,10 +7,10 @@ Created on Sun May  9 10:27:17 2021
 """
 
 #Analysis Theory
-Bid data submitted to the NYISO must be published and publicly available.  To protect the identities o
+Bid data submitted to the NYISO must be published and publicly available.  
+To protect the identities o
 
-
-
+#Bid records
 **Parameter Data**
 Type Description
 **masked bidder id, NUM**, A numeric (integer) identifier for bidder that can 
@@ -24,7 +24,7 @@ can be tracked over time.
 
 
 
-#get_bid_loc.py
+#bid_zip_loc.py
 get_bid_loc.py is the first program to run. It creates a directory of URL links for 
 the downloadable .csv.zip files on the 
 'http://mis.nyiso.com/public/P-27list.htm'
@@ -38,3 +38,6 @@ commonly thought of bid type. The second to last file was chosen to ensure
 the most updated data management practices are coded for first but avoiding 
 the most recently published file in case updates to the new data need to be 
 made.
+
+module bid_data_dict
+-> gets list of web zips  (apa_final)
