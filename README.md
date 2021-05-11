@@ -35,5 +35,47 @@ the most updated data management practices are coded for first but avoiding
 the most recently published file in case updates to the new data need to be 
 made.
 
+index __init__class(attributes)
+ID#  __datetime__marketimpact(info)
+
+def class(marketimpact):
+    expected range of bids from given participant
+    
+    def __init__: datetime
+
+
+     key1| datetime                     | datetime                     | datetime
+index    |                              |                              |
+datetime | mrkt_impact(bid_attributes)  | mrkt_impact(bid_attributes)  | mrkt_impact(bid_attributes)
+datetime | mrkt_impact(bid_attributes)  | mrkt_impact(bid_attributes)  | mrkt_impact(bid_attributes)
+
+
 module bid_data_dict
 -> gets list of web zips  (apa_final)
+
+
+    key4 | key_var
+    key3 | key_var
+    key2 | key_var 
+    key1 | key_var
+index    | values=attributes
+datetime | values=ID
+datetime | 
+...
+...
+datetime
+datetime
+#if id doesn't exist:
+
+#create dict for id
+#add desired attributes 
+
+#
+
+
+
+
+
+
+
+
